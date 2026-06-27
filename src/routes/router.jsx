@@ -10,6 +10,8 @@ import Products from "../pages/Products.jsx";
 import FrontendLayout from "../layouts/FrontendLayout.jsx";
 import ErrorPage from "../pages/ErrorPage.jsx";
 import ProductDetails from "../components/ProductDetails.jsx";
+import Login from "../components/Login.jsx";
+import Register from "../components/Register";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,12 @@ const router = createBrowserRouter([
       },
       {
         path: "products/:id", element: <ProductDetails />,
+      },
+      {
+        path:"login" , element : <Login />
+      },
+      {
+        path : "register", element : <Register />
       }
     ],
   },

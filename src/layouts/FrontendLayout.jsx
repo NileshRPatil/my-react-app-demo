@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 

@@ -21,8 +21,8 @@ function Header(){
             <Box sx={{flexGrow:1}} />
 
             <Box sx={{display:"flex", gap:"1"}}>
-              <Button color="inherit">Login</Button>
-              <Button variant="contained" color="secondary">Register</Button>
+              <Button component={Link} to="/login" color="inherit">Login</Button>
+              <Button component={Link} to="/register" variant="contained" color="secondary">Register</Button>
             </Box>
 
           </Toolbar>
